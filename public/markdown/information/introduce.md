@@ -1,7 +1,3 @@
-- Hoo-ooh-ooh-ooh
-- Hoo-ooh-ooh-ooh
-- Stay in the middle
-- Like you a little
-- Don't want no riddle
-- 말해줘 say it back, oh, say it ditto
-- 아침은 너무 멀어 so say it ditto
+- 개발자이기 전에 서비스를 만드는 사람으로서, 머신러닝을 통해 데이터와 기술을 활용하여 혁신적인 문제 해결에 도전합니다.
+- 새로운 도전을 두려워하지 않고, 항상 배움의 기회를 즐깁니다.
+- 궁금한 점이 생기면 끝까지 탐구하여, 지속 가능한 가치를 창출하는 ML 신입 개발자로 나아가겠습니다.
