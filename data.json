@@ -21,7 +21,7 @@
     }
   ],
 
-  "project": [
+  "project": [ 
     {
       "id": 0,
       "name": "댕로드",
@@ -49,7 +49,7 @@
       "stack": ["Python", "Pandas", "NumPy"]
     },
     {
-      "id": 0,
+      "id": 3,
       "name": "객체 탐지 및 추적 시스템",
       "description": "실시간 RGB 영상과 LiDAR 포인트 클라우드 데이터를 융합해 도로 포트홀의 3D 위치, 깊이, 크기를 정밀하게 추출하고 분석하는 시스템",
       "isTeam": false,
@@ -57,7 +57,7 @@
       "stack": ["Python", "OpenCV", "ROS", "PCL", "Deep Learning"]
     },
     {
-      "id": 1,
+      "id": 4,
       "name": "전동킥보드 주행 보조 시스템",
       "description": "OpenCV 기반 영상 전처리와 라즈베리파이 제어를 통해 RC카를 활용하여 트랙 데이터를 수집, 분석하고 주행 보조 알고리즘의 프로토타입을 구축한 시스템",
       "isTeam": false,
@@ -65,19 +65,19 @@
       "stack": ["Python", "OpenCV", "Raspberry Pi"]
     },
     {
-      "id": 2,
+      "id": 5,
       "name": "지하철 데이터 분석",
       "description": "서울시 지하철 승하차 데이터를 기반으로, 데이터 전처리 및 Google Maps API 연동을 통해 각 역의 승하차 현황을 folium으로 지도에 시각화하는 데이터 분석 파이프라인 구축",
       "isTeam": false,
-      "period": ["2022. 11"],
+      "period": ["2022. 10", "2022. 11"],
       "stack": ["Python", "Pandas", "Folium", "Matplotlib", "Seaborn"]
     },
     {
-      "id": 3,
+      "id": 6,
       "name": "제주도 도로 교통량 회귀 예측",
       "description": "제주도 교통 데이터를 기반으로 결측치 및 이상치 처리를 통해, 다양한 교통 관련 특성을 반영한 회귀 모델을 구축하여 도로의 평균 속도를 예측하는 개인 데이터 분석 프로젝트",
       "isTeam": false,
-      "period": ["2022. 11"],
+      "period": ["2022. 11", "2022. 12"],
       "stack": ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Seaborn"]
     }
   ],
