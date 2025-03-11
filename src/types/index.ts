@@ -21,6 +21,7 @@ export interface ProjectProps {
   description: string;
   repoUrl: string;
   webUrl?: string;
+  notionUrl?: string;
   isTeam?: boolean;
   period: string[];
   stack: string[];

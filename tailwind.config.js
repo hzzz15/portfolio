@@ -18,7 +18,7 @@ module.exports = {
         /**
          * @description selection(드래그 블록)에 사용되는 컬러입니다.
          */
-        PRIMARY_LIGHT: "#c3fae8",
+        PRIMARY_LIGHT: "#D9E5FF",
 
         /**
          * @description 자기소개의 이름 부분, code tag의 darkmode에 사용되는 컬러입니다.
@@ -28,7 +28,7 @@ module.exports = {
         /**
          * @description code tag, link hover icon에 사용되는 컬러입니다.
          */
-        PRIMARY_HEAVY: "#087f5b",
+        PRIMARY_HEAVY: "#6799FF",
 
         /**
          * @description 페이지 최상단 gradient의 시작 컬러입니다.

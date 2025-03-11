@@ -11,6 +11,7 @@ const ProjectItem = ({
   description,
   repoUrl,
   webUrl,
+  notionUrl,
   period,
   stack,
   markdown,
@@ -36,18 +37,19 @@ const ProjectItem = ({
                 <span>{period[1] ? `${period[0]} - ${period[1]}` : period[0]}</span>
               </div>
             </div>
-            <Links repoUrl={repoUrl} webUrl={webUrl} />
+            {/* notionUrl을 함께 전달 */}
+            <Links repoUrl={repoUrl} webUrl={webUrl} notionUrl={notionUrl} />
           </div>
         </div>
       </div>
       <div className="md:border-GRAY_LIGHT md:border-solid md:border-l-[1px] md:pl-4 markdown flex flex-col w-full gap-2">
         <div>
           <blockquote className="whitespace-pre-wrap">{`${description}`}</blockquote>
-          <div className="flex gap-1 flex-wrap">
+          <div className="flex gap-2 flex-wrap">
             {stack.map((stack) => (
               <span
                 key={stack}
-                className=" bg-BLACK dark:bg-white  py-[2px] px-1.5 rounded-md text-xs font-medium font-mono whitespace-nowrap text-white dark:text-BLACK"
+                className="bg-BLACK dark:bg-white py-[2px] px-2.5 rounded-md text-xs font-medium font-mono whitespace-nowrap text-white dark:text-BLACK"
               >
                 {stack}
               </span>
