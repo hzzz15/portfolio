@@ -54,6 +54,7 @@ const App = ({ Component, pageProps }: AppProps) => {
   const router = useRouter();
 
   useEffect(() => {
+    console.log("GA_TRACKING_ID:", GA_TRACKING_ID);
     const handleRouteChange = (url: URL) => {
       gtag.pageview(url);
     };
