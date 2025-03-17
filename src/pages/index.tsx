@@ -11,10 +11,9 @@ import Information from "@/components/Information";
 import Layout from "@/components/Layout";
 import Project from "@/components/Project";
 import ResumeTitle from "@/components/ResumeTitle";
-// import ScrollProgress from "@/components/ScrollProgress";
 import WorkExperience from "@/components/WorkExperience";
-import { DataProps, InformationProps, ProjectProps, WorkExperienceProps } from "@/types";
 import Award from "@/components/Award";
+import { DataProps, InformationProps, ProjectProps, WorkExperienceProps } from "@/types";
 
 const Home: NextPage<DataProps> = ({
   resumeTitle,
@@ -24,7 +23,7 @@ const Home: NextPage<DataProps> = ({
   activity,
   education,
   certificate,
-  award,
+  award
 }) => {
   return (
     <>
