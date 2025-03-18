@@ -8,6 +8,7 @@ declare module "react-notion-x" {
     darkMode?: boolean;
     components?: any;
     hideBlockId?: string;
+    disableHeader?: boolean; // 추가된 옵션
   }
 
   export class NotionRenderer extends React.Component<NotionRendererProps, any> {}

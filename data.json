@@ -26,9 +26,9 @@
       "id": 0,
       "name": "댕로드",
       "description": "사용자 맞춤 테스트와 AI 매칭 알고리즘을 통해 강아지와 보호자(또는 트레이너) 간 최적의 매칭을 제공하는 플랫폼",
-      "webUrl": "https://github.com/sjoleee/",
+      "webUrl": "",
       "repoUrl": "https://github.com/hzzz15/dang-road",
-      "notionUrl": "https://github.com/sjoleee/",
+      "notionUrl": "",
       "isTeam": true,
       "period": ["2025. 01", "2025. 02"],
       "stack": ["팀프로젝트", "플랫폼", "OpenAI"]
@@ -37,9 +37,9 @@
       "id": 1,
       "name": "Soulsync",
       "description": "사용자가 자신의 기분을 입력하면 AI 모델이 감정을 분석하여 그에 맞는 노래를 추천해주는 맞춤형 음악 추천 시스템",
-      "webUrl": "https://github.com/sjoleee/",
+      "webUrl": "",
       "repoUrl": "https://github.com/hzzz15/mini",
-      "notionUrl": "https://github.com/sjoleee/",
+      "notionUrl": "1b463fb407e8807487b3dbdbd14db48e",
       "isTeam": true,
       "period": ["2025. 01", ""],
       "stack": ["팀프로젝트", "웹", "ML모델", "FineTuning"]
@@ -48,7 +48,7 @@
       "id": 2,
       "name": "이미지 라벨링",
       "description": "500만 객체 이미지 중 100만 장 이상의 데이터를 대상으로, 객체를 정밀하게 구분하여 고품질 학습 데이터셋을 구축한 대용량 이미지 라벨링 프로젝트",
-      "notionUrl": "1b563fb407e880999e46fe6b6dd0856d",
+      "notionUrl": "1b563fb407e8801d8a8ef43f28881344",
       "isTeam": true,
       "period": ["2024. 07", ""],
       "stack": ["팀프로젝트", "데이터전처리"]
@@ -69,7 +69,7 @@
       "description": "OpenCV 기반 영상 전처리와 라즈베리파이 제어를 통해 RC카를 활용하여 트랙 데이터를 수집, 분석하고 주행 보조 알고리즘의 프로토타입을 구축한 시스템",
 
       "repoUrl": "https://github.com/hzzz15/RC_Car",
-      "notionUrl": "https://hzzang-project.notion.site/15363fb407e881cc888df069a06eaadb?pvs=73",
+      "notionUrl": "15363fb407e881cc888df069a06eaadb",
       "isTeam": false,
       "period": ["2024. 06"],
       "stack": ["개인프로젝트"]
@@ -90,8 +90,8 @@
       "name": "제주도 도로 교통량 회귀 예측",
       "description": "제주도 교통 데이터를 기반으로 결측치 및 이상치 처리를 통해, 다양한 교통 관련 특성을 반영한 회귀 모델을 구축하여 도로의 평균 속도를 예측하는 개인 데이터 분석 프로젝트",
 
-      "repoUrl": "https://github.com/hzzz15",
-      "notionUrl": "https://github.com/sjoleee/",
+      "repoUrl": "",
+      "notionUrl": "",
       "isTeam": false,
       "period": ["2022. 11", "2022. 12"],
       "stack": ["개인프로젝트", "데이터분석", "회귀분석"]
