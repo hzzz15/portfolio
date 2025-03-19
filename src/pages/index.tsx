@@ -13,12 +13,14 @@ import Project from "@/components/Project";
 import ResumeTitle from "@/components/ResumeTitle";
 import WorkExperience from "@/components/WorkExperience";
 import Award from "@/components/Award";
+import Stack from "@/components/Stack";
 import { DataProps, InformationProps, ProjectProps, WorkExperienceProps } from "@/types";
 
 const Home: NextPage<DataProps> = ({
   resumeTitle,
   information,
   workExperience,
+  stack,
   project,
   activity,
   education,
@@ -32,6 +34,7 @@ const Home: NextPage<DataProps> = ({
       <Layout>
         <Information information={information} />
         <WorkExperience workExperience={workExperience} />
+        <Stack stack={stack} />
         <Project project={project} />
         <Activity activity={activity} />
         <Education education={education} />

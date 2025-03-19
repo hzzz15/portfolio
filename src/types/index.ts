@@ -37,6 +37,14 @@ export interface AwardProps {
   description: string;
 }
 
+export interface StackData {
+  id: number;
+  category: string;
+  name: string;
+  content: string;
+}
+
+/** 전체 resume 데이터를 담는 인터페이스 */
 export interface DataProps {
   resumeTitle: {
     title: string;
@@ -63,4 +71,7 @@ export interface DataProps {
     organizer: string;
   }[];
   award: AwardProps[];
+
+  /** 추가: 기술 스택 배열 */
+  stack: StackData[];
 }
