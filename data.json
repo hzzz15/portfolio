@@ -80,7 +80,7 @@
       "description": "서울시 지하철 승하차 데이터를 기반으로, 데이터 전처리 및 Google Maps API 연동을 통해 각 역의 승하차 현황을 folium으로 지도에 시각화하는 데이터 분석 파이프라인 구축",
   
       "repoUrl": "https://github.com/hzzz15/Seoul-Subway-DataAnalysis",
-      "notionUrl": "https://github.com/sjoleee/",
+      "notionUrl": "1b663fb407e880aa9d13f17955f76123",
       "isTeam": false,
       "period": ["2022. 10", "2022. 11"],
       "stack": ["개인프로젝트", "데이터분석", "시각화"]

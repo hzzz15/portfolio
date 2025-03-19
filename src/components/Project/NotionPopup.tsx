@@ -61,21 +61,40 @@ const NotionPopup = ({ notionId, onClose }: NotionPopupProps) => {
       className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center"
       onClick={onClose}
     >
+      {/* 팝업 컨테이너의 최대 너비를 max-w-3xl로 줄임 */}
       <div
-        className="bg-white rounded-lg shadow-lg max-w-5xl w-full h-[90vh] relative flex flex-col"
+        className="bg-white rounded-lg shadow-lg max-w-4xl w-full h-[90vh] relative flex flex-col"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex-1 overflow-auto p-4">
           {loading && <LoadingPage />}
           {error && <p className="text-red-500">노션 데이터를 불러오는데 실패했습니다.</p>}
           {data && !loading && !error && (
-            <NotionRenderer
-              recordMap={data}
-              fullPage={true}
-              darkMode={false}
-              disableHeader={true}
-              components={{ Collection, CollectionRow }}
-            />
+            <div style={{ width: "100%" }}>
+              {/* 내부 콘텐츠의 너비를 80%로 제한하여 가운데 정렬 */}
+              <style
+                dangerouslySetInnerHTML={{
+                  __html: `
+                    .notion-page-content,
+                    .notion-root,
+                    .notion-page,
+                    .notion-collection,
+                    .notion-collection-view {
+                      max-width: 90% !important;
+                      width: 90% !important;
+                      margin: 0 auto;
+                    }
+                  `,
+                }}
+              />
+              <NotionRenderer
+                recordMap={data}
+                fullPage={true}
+                darkMode={false}
+                disableHeader={true}
+                components={{ Collection, CollectionRow }}
+              />
+            </div>
           )}
         </div>
       </div>
