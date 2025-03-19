@@ -1,0 +1,197 @@
+{
+  "resumeTitle": {
+    "title": "Kang Hee Ji"
+  },
+
+  "information": {
+    "name": "강희지",
+    "contact": [
+      { "id": 0, "name": "Email", "href": "piglet517hj@gmail.com", "isEmail": true },
+      { "id": 1, "name": "Github", "href": "https://github.com/hzzz15" },
+      { "id": 2, "name": "Blog", "href": "https://velog.io/@hzzz15/posts" }
+    ]
+  },
+
+  "workExperience": [
+    {
+      "id": 0,
+      "name": "JB 주식회사",
+      "position": "AI 개발 및 데이터 분석",
+      "period": ["2024. 07", "2024. 08"]
+    }
+  ],
+  "stack": [
+    {
+      "id": 1, "category": "Language", "name": "Python", "content": "데이터 전처리, 모델 구현, 스크립팅 등 전 영역에서 주력 언어로 사용했습니다. 다양한 머신러닝 및 딥러닝 프로젝트를 파이썬으로 진행하며, 라이브러리 활용 능력을 쌓았습니다."
+    },
+    {
+      "id": 2, "category": "ML & Data", "name": "OpenCV", "content": "이미지 및 영상 처리 프로젝트에서 활용하여 전처리 및 특징 추출 작업을 수행했습니다."
+    },
+    {
+      "id": 3, "category": "ML & Data", "name": "XGBoost", "content": "구조화된 데이터셋을 대상으로 한 분류 및 회귀 문제에서 앙상블 기법으로 모델 성능 개선을 경험했습니다."
+    },
+    {
+      "id": 4, "category": "ML & Data", "name": "TensorFlow, Keras, PyTorch", "content": "딥러닝 모델 구축, 학습, 평가에 활용하여 CNN, RNN 등의 구조로 다양한 문제를 해결했습니다"
+    },
+    {
+      "id": 13, "category": "ML & Data", "name": "Pandas, Numpy", "content": "대용량 데이터 처리와 분석에 활용하여 데이터 정제 및 변환 작업을 수행했습니다"
+    },
+    {
+      "id": 5, "category": "ML & Data", "name": "Matplotlib, Seaborn", "content": "분석 결과와 모델 성능을 시각적으로 표현하여 인사이트를 도출하는 데 활용하였습니다."
+    },
+    {
+      "id": 6, "category": "Backend & DB", "name": "FastAPI", "content": "머신러닝 모델을 REST API로 배포하는 프로젝트에서 빠르고 효율적인 서버 구축 경험이 있습니다."
+    },
+    {
+      "id": 7, "category": "Backend & DB", "name": "Node.js", "content": "간단한 백엔드 대시보드나 웹 서비스 제작 프로젝트에 참여하여, 비동기 처리 및 실시간 데이터 반영 기능을 구현해본 경험이 있습니다."
+    },
+    {
+      "id": 8, "category": "Backend & DB", "name": "MSSQL", "content": "개념적, 논리적, 물리적 설계를 직접 수행하여 체계적인 데이터 모델링과 성능 최적화를 경험했습니다."
+    },
+    {
+      "id": 9, "category": "ETC", "name": "Git", "content": "버전 관리 도구를 활용하여 팀 프로젝트와 개인 프로젝트 모두에서 효율적인 코드 관리와 협업을 진행했습니다."
+    },
+    {
+      "id": 10, "category": "ETC", "name": "Notion", "content": "프로젝트 기획, 일정 관리, 그리고 문서화를 체계적으로 진행하기 위해 사용했습니다."
+    },
+    {
+      "id": 11, "category": "ETC", "name": "Vercel", "content": "프론트엔드 및 간단한 백엔드 애플리케이션을 클라우드에 배포하여 실제 서비스 운영 경험을 쌓았습니다."
+    },
+    {
+      "id": 12, "category": "ETC", "name": "Netlify", "content": "정적 웹 사이트와 간단한 API 서비스를 빠르게 배포하는 데 활용하여, 사용자에게 원활한 웹 서비스 제공 경험을 보유하고 있습니다."
+    }
+  ],
+  "project": [ 
+    {
+      "id": 0,
+      "name": "댕로드",
+      "description": "사용자 맞춤 테스트와 AI 매칭 알고리즘을 통해 강아지와 보호자(또는 트레이너) 간 최적의 매칭을 제공하는 플랫폼",
+      "webUrl": "",
+      "repoUrl": "https://github.com/hzzz15/dang-road",
+      "notionUrl": "",
+      "isTeam": true,
+      "period": ["2025. 01", "2025. 02"],
+      "stack": ["팀프로젝트", "플랫폼", "OpenAI"]
+    },
+    {
+      "id": 1,
+      "name": "Soulsync",
+      "description": "사용자가 자신의 기분을 입력하면 AI 모델이 감정을 분석하여 그에 맞는 노래를 추천해주는 맞춤형 음악 추천 시스템",
+      "webUrl": "",
+      "repoUrl": "https://github.com/hzzz15/mini",
+      "notionUrl": "1b463fb407e8807487b3dbdbd14db48e",
+      "isTeam": true,
+      "period": ["2025. 01", ""],
+      "stack": ["팀프로젝트", "웹", "ML모델", "FineTuning"]
+    },
+    {
+      "id": 2,
+      "name": "이미지 라벨링",
+      "description": "500만 객체 이미지 중 100만 장 이상의 데이터를 대상으로, 객체를 정밀하게 구분하여 고품질 학습 데이터셋을 구축한 대용량 이미지 라벨링 프로젝트",
+      "notionUrl": "1b563fb407e8801d8a8ef43f28881344",
+      "isTeam": true,
+      "period": ["2024. 07", ""],
+      "stack": ["팀프로젝트", "데이터전처리"]
+    },
+    {
+      "id": 3,
+      "name": "객체 탐지 및 추적 시스템",
+      "description": "실시간 RGB 영상과 LiDAR 포인트 클라우드 데이터를 융합해 도로 포트홀의 3D 위치, 깊이, 크기를 정밀하게 추출하고 분석하는 시스템",
+
+      "notionUrl": "1b363fb407e880a9a07af39fb0d5029f",
+      "isTeam": false,
+      "period": ["2024. 07", "2024. 08"],
+      "stack": ["개인프로젝트", "ML/DL", "컴퓨터비전"]
+    },
+    {
+      "id": 4,
+      "name": "전동킥보드 주행 보조 시스템",
+      "description": "OpenCV 기반 영상 전처리와 라즈베리파이 제어를 통해 RC카를 활용하여 트랙 데이터를 수집, 분석하고 주행 보조 알고리즘의 프로토타입을 구축한 시스템",
+
+      "repoUrl": "https://github.com/hzzz15/RC_Car",
+      "notionUrl": "15363fb407e881cc888df069a06eaadb",
+      "isTeam": false,
+      "period": ["2024. 06"],
+      "stack": ["개인프로젝트"]
+    },
+    {
+      "id": 5,
+      "name": "지하철 데이터 분석",
+      "description": "서울시 지하철 승하차 데이터를 기반으로, 데이터 전처리 및 Google Maps API 연동을 통해 각 역의 승하차 현황을 folium으로 지도에 시각화하는 데이터 분석 파이프라인 구축",
+  
+      "repoUrl": "https://github.com/hzzz15/Seoul-Subway-DataAnalysis",
+      "notionUrl": "1b663fb407e880aa9d13f17955f76123",
+      "isTeam": false,
+      "period": ["2022. 10", "2022. 11"],
+      "stack": ["개인프로젝트", "데이터분석", "시각화"]
+    },
+    {
+      "id": 6,
+      "name": "제주도 도로 교통량 회귀 예측",
+      "description": "제주도 교통 데이터를 기반으로 결측치 및 이상치 처리를 통해, 다양한 교통 관련 특성을 반영한 회귀 모델을 구축하여 도로의 평균 속도를 예측하는 개인 데이터 분석 프로젝트",
+
+      "repoUrl": "",
+      "notionUrl": "",
+      "isTeam": false,
+      "period": ["2022. 11", "2022. 12"],
+      "stack": ["개인프로젝트", "데이터분석", "회귀분석"]
+    }
+  ],
+
+  "activity": [
+    {
+      "id": 0,
+      "name": "생성형 AI 개발자 부트캠프",
+      "period": ["2025. 01", "2025. 02"],
+      "description": "인공지능의 생성형 모델을 활용하여 실제 프로젝트 기반의 실무 기술을 습득하는 집중 교육 프로그램 (애듀인에듀 주최)"
+    }
+  ],
+
+  "education": [
+    {
+      "id": 0,
+      "name": "Baekseok Univ",
+      "period": ["2020. 03", "2025. 02"],
+      "description": "Division of Computer Engineering"
+    }
+  ],
+
+  "certificate": [
+    {
+      "id": 0,
+      "name": "정보처리기사",
+      "date": "2023. 06. 14"
+    }
+  ],
+
+  "award": [
+    {
+      "id": 0,
+      "name": "Great Invention Contest Challenge",
+      "date": "2021. 11. 12",
+      "organizer": "한국인터넷방송통신학회",
+      "description": "실내 보안 관리 시스템 (장려상)"
+    },
+    {
+      "id": 1,
+      "name": "Startup Invention Contest",
+      "date": "2021. 11. 12",
+      "organizer": "한국인터넷방송통신학회",
+      "description": "의류 추천 서비스 (동상)"
+    },
+    {
+      "id": 2,
+      "name": "캡스톤디자인 대학생 경진대회",
+      "date": "2024. 07. 02",
+      "organizer": "한국융합학회",
+      "description": "식단 구독 서비스 (우수상)"
+    },
+    {
+      "id": 3,
+      "name": "딥페이크 활용 가짜뉴스 대응 아이디어",
+      "date": "2024. 12. 05",
+      "organizer": "한국정보방송통신대연합",
+      "description": "장려상"
+    }
+  ]
+}
