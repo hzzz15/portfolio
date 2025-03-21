@@ -19,45 +19,19 @@
     }
   ],
   "stack": [
-    {
-      "id": 1, "category": "Language", "name": "Python", "content": "데이터 전처리, 모델 구현, 스크립팅 등 전 영역에서 주력 언어로 사용했습니다. 다양한 머신러닝 및 딥러닝 프로젝트를 파이썬으로 진행하며, 라이브러리 활용 능력을 쌓았습니다."
-    },
-    {
-      "id": 2, "category": "ML & Data", "name": "OpenCV", "content": "이미지 및 영상 처리 프로젝트에서 활용하여 전처리 및 특징 추출 작업을 수행했습니다."
-    },
-    {
-      "id": 3, "category": "ML & Data", "name": "XGBoost", "content": "구조화된 데이터셋을 대상으로 한 분류 및 회귀 문제에서 앙상블 기법으로 모델 성능 개선을 경험했습니다."
-    },
-    {
-      "id": 4, "category": "ML & Data", "name": "TensorFlow, Keras, PyTorch", "content": "딥러닝 모델 구축, 학습, 평가에 활용하여 CNN, RNN 등의 구조로 다양한 문제를 해결했습니다"
-    },
-    {
-      "id": 13, "category": "ML & Data", "name": "Pandas, Numpy", "content": "대용량 데이터 처리와 분석에 활용하여 데이터 정제 및 변환 작업을 수행했습니다"
-    },
-    {
-      "id": 5, "category": "ML & Data", "name": "Matplotlib, Seaborn", "content": "분석 결과와 모델 성능을 시각적으로 표현하여 인사이트를 도출하는 데 활용하였습니다."
-    },
-    {
-      "id": 6, "category": "Backend & DB", "name": "FastAPI", "content": "머신러닝 모델을 REST API로 배포하는 프로젝트에서 빠르고 효율적인 서버 구축 경험이 있습니다."
-    },
-    {
-      "id": 7, "category": "Backend & DB", "name": "Node.js", "content": "간단한 백엔드 대시보드나 웹 서비스 제작 프로젝트에 참여하여, 비동기 처리 및 실시간 데이터 반영 기능을 구현해본 경험이 있습니다."
-    },
-    {
-      "id": 8, "category": "Backend & DB", "name": "MSSQL", "content": "개념적, 논리적, 물리적 설계를 직접 수행하여 체계적인 데이터 모델링과 성능 최적화를 경험했습니다."
-    },
-    {
-      "id": 9, "category": "ETC", "name": "Git", "content": "버전 관리 도구를 활용하여 팀 프로젝트와 개인 프로젝트 모두에서 효율적인 코드 관리와 협업을 진행했습니다."
-    },
-    {
-      "id": 10, "category": "ETC", "name": "Notion", "content": "프로젝트 기획, 일정 관리, 그리고 문서화를 체계적으로 진행하기 위해 사용했습니다."
-    },
-    {
-      "id": 11, "category": "ETC", "name": "Vercel", "content": "프론트엔드 및 간단한 백엔드 애플리케이션을 클라우드에 배포하여 실제 서비스 운영 경험을 쌓았습니다."
-    },
-    {
-      "id": 12, "category": "ETC", "name": "Netlify", "content": "정적 웹 사이트와 간단한 API 서비스를 빠르게 배포하는 데 활용하여, 사용자에게 원활한 웹 서비스 제공 경험을 보유하고 있습니다."
-    }
+    {"id": 1, "category": "Language", "name": "Python", "content": "데이터 전처리, 모델 구현, 스크립팅 등 전 영역에서 주력 언어로 사용했습니다. 다양한 머신러닝 및 딥러닝 프로젝트를 파이썬으로 진행하며, 라이브러리 활용 능력을 쌓았습니다."},
+    {"id": 2, "category": "ML & Data", "name": "OpenCV", "content": "이미지 및 영상 처리 프로젝트에서 활용하여 전처리 및 특징 추출 작업을 수행했습니다."},
+    {"id": 3, "category": "ML & Data", "name": "XGBoost", "content": "구조화된 데이터셋을 대상으로 한 분류 및 회귀 문제에서 앙상블 기법으로 모델 성능 개선을 경험했습니다."},
+    {"id": 4, "category": "ML & Data", "name": "TensorFlow, Keras, PyTorch", "content": "딥러닝 모델 구축, 학습, 평가에 활용하여 CNN, RNN 등의 구조로 다양한 문제를 해결했습니다"},
+    {"id": 13, "category": "ML & Data", "name": "Pandas, Numpy", "content": "대용량 데이터 처리와 분석에 활용하여 데이터 정제 및 변환 작업을 수행했습니다"},
+    {"id": 5, "category": "ML & Data", "name": "Matplotlib, Seaborn", "content": "분석 결과와 모델 성능을 시각적으로 표현하여 인사이트를 도출하는 데 활용하였습니다."},
+    {"id": 6, "category": "Backend & DB", "name": "FastAPI", "content": "머신러닝 모델을 REST API로 배포하는 프로젝트에서 빠르고 효율적인 서버 구축 경험이 있습니다."},
+    {"id": 7, "category": "Backend & DB", "name": "Node.js", "content": "간단한 백엔드 대시보드나 웹 서비스 제작 프로젝트에 참여하여, 비동기 처리 및 실시간 데이터 반영 기능을 구현해본 경험이 있습니다."},
+    {"id": 8, "category": "Backend & DB", "name": "MSSQL", "content": "개념적, 논리적, 물리적 설계를 직접 수행하여 체계적인 데이터 모델링과 성능 최적화를 경험했습니다."},
+    {"id": 9, "category": "ETC", "name": "Git", "content": "버전 관리 도구를 활용하여 팀 프로젝트와 개인 프로젝트 모두에서 효율적인 코드 관리와 협업을 진행했습니다."},
+    {"id": 10, "category": "ETC", "name": "Notion", "content": "프로젝트 기획, 일정 관리, 그리고 문서화를 체계적으로 진행하기 위해 사용했습니다."},
+    {"id": 11, "category": "ETC", "name": "Vercel", "content": "프론트엔드 및 간단한 백엔드 애플리케이션을 클라우드에 배포하여 실제 서비스 운영 경험을 쌓았습니다."},
+    {"id": 12, "category": "ETC", "name": "Netlify", "content": "정적 웹 사이트와 간단한 API 서비스를 빠르게 배포하는 데 활용하여, 사용자에게 원활한 웹 서비스 제공 경험을 보유하고 있습니다."}
   ],
   "project": [ 
     {
