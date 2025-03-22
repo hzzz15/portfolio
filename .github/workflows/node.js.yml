@@ -1,4 +1,4 @@
-name: sjoleee CI
+name: heezi CI
 
 on: [push]
 
@@ -17,28 +17,16 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "yarn"
-
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "dir=$(yarn cache dir)" >>$GITHUB_OUTPUT
-
-      - uses: actions/cache@v3
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
+          cache: "npm"
 
       - name: Install the project dependencies
-        run: yarn install
+        run: npm ci
 
       - name: Prettier check
-        run: yarn prettier
+        run: npm run prettier
 
       - name: Lint check
-        run: yarn lint
+        run: npm run lint
 
       - name: TS check
-        run: yarn tsc
+        run: npm run tsc
