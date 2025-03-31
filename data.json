@@ -37,7 +37,7 @@
     {
       "id": 0,
       "name": "댕로드",
-      "description": "사용자 맞춤 테스트와 AI 매칭 알고리즘을 통해 강아지와 트레이너 간 최적의 매칭을 제공하는 서비스",
+      "description": "사용자 맞춤 테스트와 AI 매칭 알고리즘을 통해 강아지와 트레이너 간 최적의 산책, 임시보호 매칭을 제공하는 서비스",
       "webUrl": "",
       "repoUrl": "https://github.com/hzzz15/dang-road",
       "notionUrl": "1bc63fb407e880d999bfc3824d631e41",
