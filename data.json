@@ -21,7 +21,7 @@
   "stack": [
     {"id": 1, "category": "Language", "name": "Python", "content": "데이터 전처리, 모델 구현, 스크립팅 등 전 영역에서 주력 언어로 사용했습니다. 다양한 머신러닝 및 딥러닝 프로젝트를 파이썬으로 진행하며, 라이브러리 활용 능력을 쌓았습니다."},
     {"id": 2, "category": "ML & Data", "name": "OpenCV", "content": "이미지 및 영상 처리 프로젝트에서 활용하여 전처리 및 특징 추출 작업을 수행했습니다."},
-    {"id": 3, "category": "ML & Data", "name": "XGBoost", "content": "구조화된 데이터셋을 대상으로 한 분류 및 회귀 문제에서 앙상블 기법으로 모델 성능 개선을 경험했습니다."},
+    {"id": 3, "category": "ML & Data", "name": "XGBoost", "content": "구조화된 데이터셋을 대상으로 분류 및 회귀 문제 해결을 위해 사용했습니다."},
     {"id": 4, "category": "ML & Data", "name": "TensorFlow, Keras, PyTorch", "content": "딥러닝 모델 구축, 학습, 평가에 활용하여 CNN, RNN 등의 구조로 다양한 문제를 해결했습니다"},
     {"id": 13, "category": "ML & Data", "name": "Pandas, Numpy", "content": "대용량 데이터 처리와 분석에 활용하여 데이터 정제 및 변환 작업을 수행했습니다"},
     {"id": 5, "category": "ML & Data", "name": "Matplotlib, Seaborn", "content": "분석 결과와 모델 성능을 시각적으로 표현하여 인사이트를 도출하는 데 활용하였습니다."},
