@@ -30,7 +30,7 @@
     {"id": 8, "category": "Backend & DB", "name": "MSSQL", "content": "개념적, 논리적, 물리적 설계를 직접 수행하여 체계적인 데이터 모델링과 성능 최적화를 경험했습니다."},
     {"id": 9, "category": "ETC", "name": "Git", "content": "버전 관리 도구를 활용하여 팀 프로젝트와 개인 프로젝트 모두에서 효율적인 코드 관리와 협업을 진행했습니다."},
     {"id": 10, "category": "ETC", "name": "Notion", "content": "프로젝트 기획, 일정 관리, 그리고 문서화를 체계적으로 진행하기 위해 사용했습니다."},
-    {"id": 11, "category": "ETC", "name": "Vercel", "content": "프론트엔드 및 간단한 백엔드 애플리케이션을 클라우드에 배포하여 실제 서비스 운영 경험을 쌓았습니다."},
+    {"id": 11, "category": "ETC", "name": "Vercel", "content": "프론트엔드 및 간단한 백엔드 애플리케이션을 클라우드에 배포하여 실제 서비스 운영 경험을 쌓았습니다."}
   ],
   "project": [ 
     {
