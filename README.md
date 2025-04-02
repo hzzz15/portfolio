@@ -35,4 +35,5 @@
     개별 <Image> 태그에 unoptimized 속성을 추가하여
     해당 이미지에 한해 최적화를 비활성화하고, 기능별 영향 범위를 테스트함
 
-- + Stack, notion 상세보기 
+- ### 추가사항
+- Stack, notion 상세보기 
