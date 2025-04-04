@@ -86,13 +86,23 @@
     },
     {
       "id": 5,
+      "name": "제주도 도로 교통량 예측 ",
+      "description": "제주도 도로 혼잡 문제 해결을 위한 기초 데이터 확보를 목표로, 도로의 평균 차량 속도 예측을 위한 분석 및 AI 모델링 기반 구축을 수행",
+      "repoUrl": "https://github.com/hzzz15/jeju-traffic-predictor",
+      "notionUrl": "1ca63fb407e880ef8924f336562c4e28",
+      "isTeam": false,
+      "period": ["2022. 11", "2022. 12"],
+      "stack": ["개인프로젝트", "AI기반예측모델", "데이터시각화"]
+    },
+    {
+      "id": 6,
       "name": "지하철 데이터 분석",
       "description": "서울시 지하철 승하차 데이터를 기반으로, 데이터 전처리 및 Google Maps API 연동을 통해 각 역의 승하차 현황을 folium으로 지도에 시각화하는 데이터 분석 프로젝트",
       "repoUrl": "https://github.com/hzzz15/Seoul-Subway-DataAnalysis",
       "notionUrl": "1b663fb407e880aa9d13f17955f76123",
       "isTeam": false,
       "period": ["2022. 10", "2022. 11"],
-      "stack": ["개인프로젝트", "데이터분석", "시각화"]
+      "stack": ["개인프로젝트", "데이터분석"]
     }
   ],
 
